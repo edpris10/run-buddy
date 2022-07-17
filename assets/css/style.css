@@ -78,6 +78,13 @@ footer h2 {
     position: relative;
   }
 
+  .hero-secondary {
+    margin: 20px;
+    background-color: black;
+    font-size: 20px;
+    color: red;
+  }
+
   .hero-form {
     border: 3px solid #024e76;
     background-color: #fce138;
@@ -276,4 +283,5 @@ footer h2 {
   .contact-info a {
     color: #fce138;
   }
+
   
