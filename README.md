@@ -12,3 +12,5 @@ https://edpris10.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Priscilla 
+
+# Run Buddy Inc.
