@@ -49,12 +49,12 @@ header nav ul li a {
 }  
 
 footer {
-    background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  background: #fce138;
+  width: 100%;
+  padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 footer h2 {
@@ -78,10 +78,8 @@ section {
 
 .hero {
   background-image: url("../images/hero.jpg");
-  height: 600px;
   background-size: cover;
   background-position: center;
-  position: relative;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -92,7 +90,6 @@ section {
   background-color: #fce138;
   padding: 20px;
   color: #024e76;
-  width: 40%;
   margin: 3.5%;
 }
 
@@ -140,10 +137,6 @@ section {
   font-style: italic;
   font-size: 55px;
   color: #fce138;
-}
-
-.intro {
-  text-align: center;
 }
 
 .intro p {
