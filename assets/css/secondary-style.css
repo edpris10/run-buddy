@@ -1,13 +1,52 @@
 .hero {
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
     background-position: bottom;
+    background-color: white;
+    position: relative;
     height: auto;
     text-align: center;
     margin-bottom: 40px;
+    margin: 20px;
+    font-size: 20px;
+    color: blue;
   }
 
-.hero-secondary {
+.secondary-hero {
     margin: 20px;
     background-color: black;
     font-size: 20px;
     color: red;
+}
+
+.page-title {
+    color: #fce138;
+    display: incline-block;
+    border-bottom: 4px solid #fce138;
+    padding: 0 80px 15px 80px;
+    font-weight: normal;
+    font-size: 42;
+    font-style: italic;
+}
+
+.secondary-content {
+    width: 80%;
+    margin: auto;
+    color: #024e76;
+
+}
+
+.secondary-content h3 {
+    font-size: 25px;
+    margin: 20px 0 20px 0;
+}
+
+.secondary-content h3 p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.secondary-content h3 p li {
+    color: #39a6b2;
+    margin: 10px 0 10px 0;
 }
