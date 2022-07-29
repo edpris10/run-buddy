@@ -24,8 +24,7 @@ header {
   background-position: center;
   background-attachment: fixed;
   background-position: 80%;
-  position: relative;
-
+  position: relative; 
 }
 
 header h1 {
@@ -96,6 +95,8 @@ section {
   background-image: url("../images/hero.jpg");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -176,16 +177,20 @@ section {
   text-align: center;
 }
 
-.steps {
+.step {
   background: #fce138;
   margin: 50px auto;
   padding-bottom: 50px;
   width: 80%;
-  border-bottom: 1px solid #39a6b2;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid #39a6b2;
+}
+
+.step:nth-child(even) {
+  border-bottom: 1px solid #39a6b2;
 }
 
 .section-title {
